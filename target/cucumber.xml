@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="34.559678">
+<testcase classname="Click on carousel" name="PWC webstie click on carousel" time="12.349814">
+<system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When I am viewing the 'Home' page...........................................passed
+Then I am presented with a carousel displaying 3 featured articles..........passed
+And Clicking the 'Next' button on the carousel will load the next 3 featured articles.passed
+And Clicking the 'Previous' button on the carousel will load the previous 3 featured articles.passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Us" name="Verify Contact Us page" time="10.763271">
+<system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When I select 'Contact us' from the hamburger menu..........................passed
+Then I am taken to the 'Contact us' page....................................passed
+And I am presented with the below options for contacts......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Functionality" name="Search Functionality Verify" time="11.446593">
+<system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When I click on the 'Magnifying glass' icon to perform a search.............passed
+And I enter the text 'Single page applications'.............................passed
+And I submit the search.....................................................passed
+Then I am taken to the search results page..................................passed
+And I am presented with at least 1 search result............................passed
+]]></system-out>
+</testcase>
+</testsuite>

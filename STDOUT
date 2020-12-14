@@ -1,0 +1,27 @@
+Feature: Click on carousel
+
+  @TestRun
+  Scenario: PWC webstie click on carousel                                                         [90m# FF01_ClickOnCarousel.feature:4[0m
+    [32mGiven [0m[32mI navigate to the PwC Digital Pulse website[0m                                             [90m# SD01_ClickOnCarouselFF.i_navigate_to_the_PwC_Digital_Pulse_website()[0m
+    [32mWhen [0m[32mI am viewing the 'Home' page[0m                                                             [90m# SD01_ClickOnCarouselFF.i_am_viewing_the_Home_page()[0m
+    [32mThen [0m[32mI am presented with a carousel displaying [0m[32m[1m3[0m[32m featured articles[0m                            [90m# SD01_ClickOnCarouselFF.i_am_presented_with_a_carousel_displaying_featured_articles(int)[0m
+    [32mAnd [0m[32mClicking the 'Next' button on the carousel will load the next [0m[32m[1m3[0m[32m featured articles[0m         [90m# SD01_ClickOnCarouselFF.clicking_the_Next_button_on_the_carousel_will_load_the_next_featured_articles(int)[0m
+    [32mAnd [0m[32mClicking the 'Previous' button on the carousel will load the previous [0m[32m[1m3[0m[32m featured articles[0m [90m# SD01_ClickOnCarouselFF.clicking_the_Previous_button_on_the_carousel_will_load_the_previous_featured_articles(int)[0m
+Feature: Contact Us
+
+  @TestRun
+  Scenario: Verify Contact Us page                         [90m# FF02_ContactUsVerify.feature:4[0m
+    [32mGiven [0m[32mI navigate to the PwC Digital Pulse website[0m      [90m# SD01_ClickOnCarouselFF.i_navigate_to_the_PwC_Digital_Pulse_website()[0m
+    [32mWhen [0m[32mI select 'Contact us' from the hamburger menu[0m     [90m# SD02_ContactUSVerify.i_select_Contact_us_from_the_hamburger_menu()[0m
+    [32mThen [0m[32mI am taken to the 'Contact us' page[0m               [90m# SD02_ContactUSVerify.i_am_taken_to_the_Contact_us_page()[0m
+    [32mAnd [0m[32mI am presented with the below options for contacts[0m [90m# SD02_ContactUSVerify.i_am_presented_with_the_below_options_for_contacts()[0m
+Feature: Search Functionality
+
+  @TestRun
+  Scenario: Search Functionality Verify                             [90m# FF03_SearchFunctionality.feature:4[0m
+    [32mGiven [0m[32mI navigate to the PwC Digital Pulse website[0m               [90m# SD01_ClickOnCarouselFF.i_navigate_to_the_PwC_Digital_Pulse_website()[0m
+    [32mWhen [0m[32mI click on the 'Magnifying glass' icon to perform a search[0m [90m# SD03_SearchFunctionality.i_click_on_the_Magnifying_glass_icon_to_perform_a_search()[0m
+    [32mAnd [0m[32mI enter the text 'Single page applications'[0m                 [90m# SD03_SearchFunctionality.i_enter_the_text_Single_page_applications()[0m
+    [32mAnd [0m[32mI submit the search[0m                                         [90m# SD03_SearchFunctionality.i_submit_the_search()[0m
+    [32mThen [0m[32mI am taken to the search results page[0m                      [90m# SD03_SearchFunctionality.i_am_taken_to_the_search_results_page()[0m
+    [32mAnd [0m[32mI am presented with at least [0m[32m[1m1[0m[32m search result[0m                [90m# SD03_SearchFunctionality.i_am_presented_with_at_least_search_result(int)[0m
